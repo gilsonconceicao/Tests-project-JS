@@ -7,7 +7,7 @@ var nome = window.prompt (`Qual é o seu nome?`); //-nome
 var anoN = window.prompt(`${nome}, qual ano você nasceu? `);
 var anoA = 2021; 
 var idade = anoA - anoN; 
-window.alert(`A sua idade é: ${idade}`)
+window.alert(`A sua idade é: ${idade} anos`)
 
 /// somar 
 window.alert(`Olá, ${nome}! Vamos somar. `);
@@ -40,7 +40,7 @@ window.alert (`O valor da divisão de ${dividirN1} dividido por ${dividirN2} é 
 
 // resultado das soma feitas no console 
 window.console.log (
-    `O seu nome é ${nome}, a sua soma foi igual a ${soma}. A subitração restou-se ${valor_menos}. O resultado da multiplicação foi ${valor_vezes}. Por último, a sua divisão foi igual a ${valor_dividir}.`
+    `O seu nome é ${nome}, a sua idade ${idade} anos, a sua soma foi igual a ${soma}. A subitração restou-se ${valor_menos}. O resultado da multiplicação foi ${valor_vezes}. Por último, a sua divisão foi igual a ${valor_dividir}.`
 );
 
 /* 
