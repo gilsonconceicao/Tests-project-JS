@@ -31,7 +31,7 @@ var valor_vezes = vezesN1 * vezesN2;
 window.alert (`A multiplicação de ${vezesN1} x ${vezesN2} é igual a: ${valor_vezes}.`);
 
 // divisão 
-window.alert (`Vamos dividir :)`)
+window.alert (`Vamos dividir`)
 var dividirN1 = Number(window.prompt(`Qual número você deseja dividir, ${nome}?`));
 var dividirN2 = Number(window.prompt(`Por qual número? `));
 var valor_dividir = dividirN1 / dividirN2;
