@@ -3,6 +3,12 @@
 window.alert (`Seja bem vindo(a)`);
 var nome = window.prompt (`Qual é o seu nome?`); //-nome
 
+//idade 
+var anoN = window.prompt(`${nome}, qual ano você nasceu? `);
+var anoA = 2021; 
+var idade = anoA - anoN; 
+window.alert(`A sua idade é: ${idade}`)
+
 /// somar 
 window.alert(`Olá, ${nome}! Vamos somar. `);
 var maisN1 = Number(window.prompt(`${nome}, digite um número pra somar:`));

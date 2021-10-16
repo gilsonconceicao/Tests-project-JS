@@ -24,6 +24,10 @@ body {
     background-image: linear-gradient(to left, purple, gold);
 }
 
+main {
+    padding: 0 20px;
+}
+
 article {
     background-color: #2a2a2a;
     color: white;
