@@ -134,7 +134,7 @@ div#box_div a:hover {
     #list_menu {
         display: none;
     }
-    #list_menu {
+    #list_menu:hover {
         display: block;
     }
 
