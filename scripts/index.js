@@ -1,4 +1,5 @@
 // botao menu 
+/*
 var sairmenu = window.document.getElementById('list_menu')
 sairmenu.style.display = 'none'
 
@@ -10,3 +11,5 @@ function click_menu() {
 function sair_menu() {
    sairmenu.style.display = 'none'
 }
+
+*/ 

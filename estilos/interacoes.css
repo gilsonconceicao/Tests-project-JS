@@ -18,60 +18,27 @@
 /* cabeçalho da pagina */ 
 
 header#cabecalho {
-    display: flex;
-    background-color: #2a2a2a;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+    background-color: #fffffffc;
 }
 
-header#cabecalho h1 {
-    color: #e1d7d4;
-    font-size: 1.5em;
-}
-
-#list_menu {
-    background-color: #2a2a2a;
-    position: absolute;
-    right: 0;
-    top: 5%;
-    padding: 20px;
-}
-
-#list_menu li {
-    text-align: center; 
-}
-
-#list_menu li a {
-    line-height: 2em;
-    color: white;
-    font-size: 20px;
-}
-
-#list_menu li a:hover {
-    color: orangered;
-}
-
-#botao_menu > a{
-    color: white;
-}
-
-#botao_menu:hover {
-    transform: scale(0.9);
+header#cabecalho > h1 {
+    color: black;
+    font-style: italic;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 5px 0;
 }
 
 /* conteudo principal */ 
 
 body {
-    background-image: url(../imagens/imagem\ de\ fundo.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #2a2a2a;
+    padding-bottom: 20px;
 }
 
 .titulo_opcoes {
     color: orangered;
-    text-shadow: -10px 5px 2px #ffffff3a;
+    text-shadow: 0px 2px 2px #ffffff3a;
     text-align: center;
     font-size: 3em;
     margin-bottom: 20px;
@@ -131,21 +98,18 @@ div#box_div a:hover {
 }
 
 @media screen and (max-width: 700px) {
-    #list_menu {
-        display: none;
-    }
-    #list_menu:hover {
-        display: block;
+    body {
+        padding-bottom: 20%;
     }
 
     /* titulo */ 
     .titulo_opcoes {
-        font-size: 2em;
-        margin-top: 30px;
+        font-size: 2.4em;
+        margin-top: 20px;
     }
 
     header#cabecalho h1 {
-        font-size: 1em;
+        font-size: 1.3em;
     }
 
     p.sobre_funcao {
@@ -155,4 +119,12 @@ div#box_div a:hover {
         padding: 20px;
         border-radius: 20px;
     }
+
+    div#box_div a {
+        font-size: 22px;
+        color: white;
+        font-weight: bold;
+        transition: .8s;
+    }
+    
 }
