@@ -1,0 +1,158 @@
+@charset "UTF-8"; 
+
+:root {
+    --azul-strong: #036666;
+    --azul-weak: #003566;
+    --amarelo-weak: #FFD60A;
+    --amarelo-strong: #78C6A3;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* cabeçalho da pagina */ 
+
+header#cabecalho {
+    display: flex;
+    background-color: #2a2a2a;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+header#cabecalho h1 {
+    color: #e1d7d4;
+    font-size: 1.5em;
+}
+
+#list_menu {
+    background-color: #2a2a2a;
+    position: absolute;
+    right: 0;
+    top: 5%;
+    padding: 20px;
+}
+
+#list_menu li {
+    text-align: center; 
+}
+
+#list_menu li a {
+    line-height: 2em;
+    color: white;
+    font-size: 20px;
+}
+
+#list_menu li a:hover {
+    color: orangered;
+}
+
+#botao_menu > a{
+    color: white;
+}
+
+#botao_menu:hover {
+    transform: scale(0.9);
+}
+
+/* conteudo principal */ 
+
+body {
+    background-image: url(../imagens/imagem\ de\ fundo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo_opcoes {
+    color: orangered;
+    text-shadow: -10px 5px 2px #ffffff3a;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+main#conteiner_box {
+    color: white;
+    padding: 5% 20px 13% 20px;
+    margin: 0 0;
+
+}
+
+/* sobre função */ 
+p.sobre_funcao {
+    text-shadow: 0px 2px 2px black;
+    max-width: 700px;
+    font-size: 23px;
+    line-height: 1.7em;
+    text-align: left;
+    margin: 30px auto;
+}
+/* div para opções */ 
+
+div#box_div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 20px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+div#box_div div {
+    background-color: rgb(94, 0, 94);
+    flex: 1 1 200px;
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 20px;
+    margin: 10px;
+    transition: .8s;
+}
+
+div#box_div div:hover {
+    transform: scale(0.8);
+    border-radius: 40px;
+}
+
+div#box_div a {
+    font-size: 27px;
+    color: white;
+    font-weight: bold;
+    transition: .8s;
+}
+
+div#box_div a:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 700px) {
+    #list_menu {
+        display: none;
+    }
+    #list_menu {
+        display: block;
+    }
+
+    /* titulo */ 
+    .titulo_opcoes {
+        font-size: 2em;
+        margin-top: 30px;
+    }
+
+    header#cabecalho h1 {
+        font-size: 1em;
+    }
+
+    p.sobre_funcao {
+        font-size: 17px;
+        line-height: 1.7em;
+        background-color: #373737a8;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}

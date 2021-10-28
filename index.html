@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interações</title>
+    <link rel="stylesheet" href="estilos/interacoes.css">
+</head>
+<body>
+    <!-- aplicando todo o meu conhecimento com JS até o momento, variáveis, opradores, DOM e é claro funções :). --->
+
+    <header id="cabecalho">
+        <h1>INTERATIVIDADES EM JS</h1>
+        <nav id="menu">
+            <h2 id="botao_menu" onclick="click_menu()" onmouseenter="sair_menu()"><a href="index.html#list_menu">&#9776;</a></h2>
+            <ul id="list_menu">
+                <li><a href="clickspage.html">Interagir com botões</a></li>
+                <li><a href="calculadora.html">Calculadora</a></li>
+                <li><a href="#">Ainda não sei</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="conteiner_box">
+        <h2 class="titulo_opcoes">Qual interatividade pretende fazer ? </h2>
+
+        <div id="box_div">
+            <div>
+                <a href="calculadora.html">Calculadora </a>
+                
+            </div>
+            <div>
+                <a href="clickspage.html">Cliques interativos</a>
+                
+            </div>
+            <div>
+                <a href="interacao_mouse.html">Ainda não sei </a>
+            </div>
+        </div>
+
+        <p class="sobre_funcao"> FUNÇÕES SÃO UM CONJUNTO DE CÓDIGOS QUE QUANDO EXECUTADO <strong>REALIZAM</strong> UMA DETERMINADA <strong>FUNÇÃO</strong>. ESSA PAGINA É ONDE EU APLICO O POUCO DO QUE EU SEI DE <em>JAVASCRIPT</em>. </p>
+    </main>
+
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>

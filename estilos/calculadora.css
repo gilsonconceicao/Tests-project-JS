@@ -1,0 +1,123 @@
+@charset "UTF=8"; 
+
+:root {
+    --azul-strong: #036666;
+    --azul-weak: #003566;
+    --amarelo-weak: #FFD60A;
+    --amarelo-strong: #78C6A3;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+/* cabeçalho da pagina */ 
+
+header#cabecalho {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 2%;
+}
+
+header#cabecalho h1 {
+    color: orangered;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    font-size: 2.5em;
+    text-align: center;
+    font-style: italic;
+}
+
+/* estilo do corpo da pagina */ 
+body {
+    background-color: var(--azul-weak);
+}
+main {
+    color: white;
+    max-width: 600px;
+    padding: 10% 20px;
+    margin: auto;
+}
+
+article#destaque {
+    max-width: 600px; 
+    font-size: 30px;
+    margin: auto;
+}
+
+div#box_calculos {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+}
+
+div#box_calculos div {
+    margin: 10px;
+}
+
+/* operações de multiplicar */ 
+#input_vezesN1, #input_vezesN2 {
+    width: 80px;
+    outline: none;
+}
+
+#input_dividirN1, #input_dividirN2 {
+    width: 80px;
+    outline: none;
+}
+
+/* botao para calculo */ 
+.botao_calculo {
+    background-color: #dcdcdc;
+    color: black    ;
+    border: none;
+    padding: 5px 7px;
+    border-radius: 20px;
+    transition: .8s;
+}
+
+/* botao voltar */ 
+.voltar_button a {
+    background-color: orangered;
+    color: white;
+    width: 200px;
+    text-align: center;
+    float: right;
+    margin: auto 60px auto auto;
+    border-radius: 30px;
+    padding: 5px 10px;
+    transition: .8s;
+}
+
+.voltar_button a:hover {
+    transform: scale(0.9);
+}
+.botao_calculo:hover {
+    transform: scale(0.9);
+}
+
+#res_multiplica, #res_dividir {
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    article#destaque {
+        font-size: 18px;
+    }
+    header#cabecalho h1 {
+        font-size: 2em;
+    }
+    #input_dividirN1, #input_dividirN2 {
+        width: 60px;
+        outline: none;
+    }
+    
+    #input_vezesN1, #input_vezesN2 {
+        width: 60px;
+        outline: none;
+    }
+}
