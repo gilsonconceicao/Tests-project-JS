@@ -1,10 +1,10 @@
 @charset "UTF-8"; 
 
 :root {
-    --azul-strong: #036666;
-    --azul-weak: #003566;
-    --amarelo-weak: #FFD60A;
-    --amarelo-strong: #78C6A3;
+    --vermelho-strong: #F20530;
+    --azul-fort: #0367A6;
+    --azul-weak: #25A6D9;
+    --black-weak: #0D0D0D;
 }
 
 * {
@@ -18,11 +18,11 @@
 /* cabeçalho da pagina */ 
 
 header#cabecalho {
-    background-color: #fffffffc;
+    background-color: #2a2a2a;
 }
 
 header#cabecalho > h1 {
-    color: black;
+    color: white;
     font-style: italic;
     font-size: 1.8em;
     text-align: center;
@@ -32,16 +32,16 @@ header#cabecalho > h1 {
 /* conteudo principal */ 
 
 body {
-    background-color: #2a2a2a;
+    background-image: linear-gradient(to bottom, var(--vermelho-strong), var(--black-weak), var(--azul-fort));
     padding-bottom: 20px;
 }
 
 .titulo_opcoes {
-    color: orangered;
+    color: white;
     text-shadow: 0px 2px 2px #ffffff3a;
     text-align: center;
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 main#conteiner_box {
@@ -72,10 +72,12 @@ div#box_div {
 }
 
 div#box_div div {
-    background-color: rgb(94, 0, 94);
+    background-color: var(--black-weak);
     flex: 1 1 200px;
     flex-wrap: wrap;
     text-align: center;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
     border-radius: 20px;
     padding: 3px;
     margin: 10px;
@@ -96,6 +98,10 @@ div#box_div a {
 
 div#box_div a:hover {
     opacity: 0.5;
+}
+
+span.js {
+    color: #ffff00c7;
 }
 
 @media screen and (max-width: 700px) {

@@ -1,10 +1,10 @@
 @charset "UTF-8"; 
 
 :root {
-    --azul-strong: #036666;
-    --azul-weak: #003566;
-    --amarelo-weak: #FFD60A;
-    --amarelo-strong: #78C6A3;
+    --vermelho-strong: #F20530;
+    --azul-fort: #0367A6;
+    --azul-weak: #25A6D9;
+    --black-weak: #0D0D0D;
 }
 
 * {
@@ -31,7 +31,7 @@ header#cabecalho h1 {
 /* ------------ Corpo da pagina ----------- */  
 
 body {
-    background-color: #00bb79;
+    background-color: var(--vermelho-strong);
 }
 
 main {
@@ -40,7 +40,7 @@ main {
 }
 
 main h2 {
-    color: orangered;
+    color: white;
     text-align: center;
     font-size: 3em;
     margin-top: 60px;
@@ -85,7 +85,7 @@ div#box_cliques div {
     color: white;
 }
 .buttun_voltar {
-    background-color: orangered;
+    background-color: var(--black-weak);
     color: white;
     width: 100px;
     text-align: center;
