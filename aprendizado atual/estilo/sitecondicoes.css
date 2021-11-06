@@ -15,7 +15,7 @@
 /* body */ 
 body {
     color: var(--cor-text);
-    background-color: var(--cor-fundo);
+    background-color: white;
 }
 
 main {
@@ -23,13 +23,10 @@ main {
     margin: auto;
 }
 
-article#linguagens {
-    padding-top: 10%;
-}
 
 article{
 
-    padding: 5% 20px;
+    padding: 10% 20px;
 }
 
 h2 {
@@ -46,6 +43,8 @@ label {
     margin-top: 10px;
 }
 input {
+    color: black;
+    outline: none;
     padding: 2px 4px;
     margin: 10px 0 ;
 }
@@ -72,24 +71,28 @@ header h1 {
 
 summary {
     background-color: var(--cor-text);
-    width: 196px;
+    width: 220px;
     color: white;
     font-size: 14px;
-    padding: 2px;
+    padding: 2px 7px;
+    transition: .8s;
 }
 
 details ul {
-    background-color: #ffffff;
-    width: 180px;
+    background-color: var(--cor-fundo);
+    width: 214px;
     padding: 10px;
+    transition: .8s;
 }
 
 details ul > li {
     line-height: 1.5em;
+    padding: 3px 4px;
 }
 
 details ul > li:hover {
     background-color: #a0a0a096;
+
 }
 
 /* ---- article peíodos ----- */ 
@@ -115,7 +118,7 @@ article#periodo, article#votos li {
 /* style do section da pagina */ 
 
 section#sobre_pag {
-    background-color: white;
+    background-color: #a9a9a977;
     padding: 2% 20px;
 }
 section#sobre_pag h2 {
@@ -136,7 +139,7 @@ section#sobre_pag p {
 
 /* style de textos curtos da pagina */ 
 .font_li {
-    color: #0000009a;
+    color: #000000b8;
 }
 
 span.clique {

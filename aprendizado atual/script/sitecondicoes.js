@@ -5,7 +5,7 @@ function linguagens_name() {
     var language = input_language.value; 
     
     var res_language = window.document.getElementById('res_language'); 
-    res_language.innerHTML = '&#10004; - ' + language; 
+    res_language.innerHTML = '	&#9678;' + language; 
 
     switch (language) {
         case 'javascript':
@@ -47,7 +47,7 @@ function idade_votos() {
     var idade_input = window.document.getElementById('idade_input'); 
     var idade = idade_input.value; 
     var res_idade = window.document.getElementById('res_idade'); 
-    res_idade.innerHTML = `&#10004; - A sua idade é: ${idade} anos.`; 
+    res_idade.innerHTML = `	&#9678; A sua idade é: ${idade} anos.`; 
 
     if (idade < 16) {
         res_idade.innerHTML += `<br> você <strong>não</strong> pode <strong>votar</strong>`; 
@@ -65,7 +65,7 @@ function horario_periodo() {
     var input_hora = window.document.getElementById('input_hora'); 
     var hora = input_hora.value; 
     var res_hora = window.document.getElementById('res_hora');
-    res_hora.innerHTML = `&#10004; O horário escolhido foi: `; 
+    res_hora.innerHTML = `	&#9678; O horário escolhido foi: `; 
 
     if (hora >= 4 && hora <=12) {
         res_hora.innerHTML += `<br> Bom dia!`; 
@@ -87,7 +87,7 @@ function estado_abreviados() {
     var estado_input = window.document.getElementById('estado_input'); 
     var estado = estado_input.value; 
     var res_estado = window.document.getElementById('res_estado'); 
-    res_estado.innerHTML = `&#10004; - O Estado escolhido foi: ${estado}`; 
+    res_estado.innerHTML = `&#9678; - O Estado escolhido foi: ${estado}`; 
 
     switch (estado) {
         case 'SP':
@@ -118,7 +118,7 @@ function calcular_vezes() {
     var vezesN2 = Number(number_vezes02.value); 
     var valor_vezes = vezesN1 * vezesN2; 
     var res_vezes = window.document.getElementById('valor_vezes'); 
-    res_vezes.innerHTML = `&#10004; - ${vezesN1} x ${vezesN2} = ${valor_vezes}`
+    res_vezes.innerHTML = `	&#9678; - ${vezesN1} x ${vezesN2} = ${valor_vezes}`
 }
 
 function calcular_dividir() {
