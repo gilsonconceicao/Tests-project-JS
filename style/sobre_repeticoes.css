@@ -202,7 +202,11 @@ div.box_exercicios input {
     /* destaque */ 
     section#sobre {
         max-width: 700px;
-        padding: 10% 10px; 
+        padding: 10% 10px 5% 10px; 
+    }
+
+    section#sobre p {
+        line-height: 1.6em;
     }
 
     /* margin article e box */ 
