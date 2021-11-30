@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contagem Completa</title>
+    <link rel="stylesheet" href="style/contagem.css">
+</head>
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+        <p>Contagem progressiva e regressiva</p>
+    </header>
+
+    <main>
+        <article class="conteiner_main">
+            <h3>Contagens numéricas</h3>
+            <div class="box_contar">
+                <div id="dados">
+                    <label for="inicio">Início: </label> <br>
+                    <input type="number" class="input_dados" name="inicio" id="txtI"> <br>
+                    <label for="fim">Fim: </label> <br>
+                    <input type="number" class="input_dados" name="fim" id="txtF"> <br>
+                    <label for="passo">Passo: </label> <br>
+                    <input type="number" class="input_dados" name="passo" id="txtP"> <br>
+
+                    <p id="res">Aqui estará a resposta</p>
+
+                    <input type="button" id="botao" value="contar" onclick="contagem()">
+
+                </div>
+            </div>
+        </article>
+    </main>
+
+
+</body>
+<script src="script/contagem.js"></script>
+</html>
