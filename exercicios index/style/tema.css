@@ -1,0 +1,182 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+:root {
+    --cor_principal: #7262d8;
+    --cor_secumndaria: #35F29A; 
+}
+
+* {
+    font-family: 'Roboto', sans-serif;;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------- header  -------- */
+
+header {
+    background-color: rgba(0, 0, 0, 0.196);
+    box-shadow: 0px 0px 0px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+header h1 {
+    color: white;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+
+#botao_voltar_home {
+    background-color: #f5f7f6;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+    padding:  5px 10px;
+    transition: .8s;
+}
+
+#botao_voltar_home:hover {
+    transform: scale(0.9);
+}
+
+
+/* ------- exercicios  -------- */
+body {
+    background-image: linear-gradient(to left, var(--cor_principal), var(--cor_secumndaria));
+    
+}
+
+main {
+    margin: 0 20px;
+}
+
+main > h2 {
+    color: #ffffff;
+    background-color: #282a2c;
+    max-width: 800px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 2.3em;
+    margin: 20px auto;
+}
+
+section#exercicios {
+    margin: 3% 0 ;
+    
+}
+
+.area_tema {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    padding: 5% 20px;
+    max-width: 800px;
+    margin: 5% auto 3% auto;
+    transition: all .9s;
+}
+
+#inputs_tema {
+    max-width: 300px;
+    margin: auto;
+}
+
+.area_tema h2 {
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.area_tema p {
+    font-size: 20px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input, label {
+    padding: 5px;
+    outline: none;
+    margin: 5px 0;
+}
+
+/* botoes valor - exercício */ 
+
+.butoes_valor {
+    background-color: #4e29a5;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.164);
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 6px 10px;
+}
+
+/* botoes voltar e proxímo */ 
+
+.bottons_area {
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.bottons_area p {
+    transition: .8;
+}
+
+
+.bottons_area a {
+    background-color: #2c2931;
+    color: white;  
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 200px;
+    padding: 3px 5px;
+    margin: 0 10px;
+    transition: all .7s;
+}
+
+.bottons_area a:hover {
+    transform: scale(0.9);
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+
+
+@media screen and (max-width: 600px) {
+    main > h2 {
+        color: #ffffff;
+        background-color: #282a2c;
+        max-width: 800px;
+        border-radius: 40px;
+        text-align: center;
+        font-size: 1.7em;
+        padding: 5px 10px;
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header h1 {
+        font-size: 1em;
+    }
+    .area_tema h2 {
+        font-size: 1.8em;
+    }
+    input {
+        width: 80px;
+    }
+    
+} 

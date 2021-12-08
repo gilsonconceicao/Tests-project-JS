@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos javascript</title>
+    <link rel="stylesheet" href="style/fundamentos.css">
+</head>
+<body>
+    <header>
+        <h1>Fundamentos do javascript</h1>
+        <a id="botao_voltar_home" href="index.html">voltar</a>
+    </header>
+
+    <section id="destaque">
+        <h2>Conheça um pouco mais do javascript</h2>
+        <p>princípios básicos da linguagem</p>
+    </section>
+
+    <div id="buttons_tema">
+        <input type="radio" name="tema" id="escuro" onclick="tema_escuro()">
+        <label for="escuro">black</label>
+        <input type="radio" name="tema" id="branco" onclick="tema_branco()">
+        <label for="claro">white</label>
+    </div>
+
+    <main>
+        <article id="sobre_repeticoes">
+            <h2>Estruturas de repetição</h2>
+            <p>Uma estrutura de repetição é uma estrutura no qual permite ao programador executar um determinado bloco de código um determinado número de vezes, de acordo com sua necessidade ao escrever o script.</p>
+            <br>
+            <p><strong>while:</strong> A declaração while cria um laço que executa uma rotina especifica enquanto a condição de teste for avaliada como verdadeira. A condição é avaliada antes da execução da rotina. </p>
+            <br>
+            <p><strong>for:</strong> A instrução for cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.</p>
+        </article>
+
+        <article id="sobre_variaveis">
+            <h2>Variáveis </h2>
+            <p>Variáveis em Javascript são uma forma para se salvar dados que possam ser acessados e/ou manipulados posteriormente, independente do tipo desses dados, strings, números, booleanos, arrays, objetos ou funções. </p>
+        </article>
+
+        <article id="sobre_dom">
+            <h2>DOM</h2>
+            <p>O Modelo de Objeto de Documentos (do inglês <strong>Document Object Model</strong>, DOM) é uma API definida pelo W3C para representar e interagir com qualquer documento HTML ou XML.</p>
+            <br>
+            <p>O DOM é um modelo de documento carregado pelo navegador. Este documento é representado através de uma árvore de nós, onde cada um destes nós representa uma parte do documento (por ex. um elemento, texto ou comentário).</p>
+        </article>
+
+        <article id="sobre_functions">
+            <h2>Function</h2>
+            <p>O construtor Function cria um novo objeto Function. Chamar o construtor diretamente pode criar funções dinamicamente, mas sofre com problemas de segurança e desempenho semelhante (mas muito menos significativo) a eval. No entanto, diferentemente de eval, a Função construtora cria funções que executam somente no escopo global.</p>
+        </article>
+
+        
+    </main>
+</body>
+<script src="script/modo_escuro.js"></script>
+</html>

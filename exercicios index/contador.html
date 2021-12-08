@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios | verificador </title>
+    <link rel="stylesheet" href="style/contador.css">
+</head>
+
+<body>
+    <header>
+        <h1>Exercícios com JavaScript</h1>
+        <a id="botao_voltar_home" href="../index.html">voltar</a>
+    </header>
+    <main>
+        <h2>Hora de interatividade </h2>
+
+        <section id="contagem">
+
+            <h2>Contagem completa </h2>
+            <p>Contas do maior para o menor | menor para o maior</p>
+            <div class="dados_cont">
+                <label for="inicio">Início: </label> <br>
+                <input type="number" name="inicio" id="txtI"> <br>
+                <label for="passo">Passo: </label> <br>
+                <input type="number" name="passo" id="txtP"> <br>
+                <label for="fim">Fim: </label> <br>
+                <input type="number" name="fim" id="txtF"> <br>
+                <input type="button" value="contar" class="butoes_valor" onclick="contador_completo()">
+                
+            </div>
+            <div id="res">
+            </div>
+        </section>
+        <div class="bottons_area">
+            <!--voltar-->
+            <a href="verificador.html"> voltar</a>
+            <!--proxímo-->
+            <a href="tabuada.html"> proxímo</a>
+        </div>
+    </main>
+</body>
+<script src="script/contador.js"></script>
+</html>

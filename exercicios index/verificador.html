@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios | Verificador </title>
+    <link rel="stylesheet" href="style/verificador.css">
+</head>
+
+<body>
+    <header>
+        <h1>Exercícios com JavaScript</h1>
+        <a id="botao_voltar_home" href="../index.html">voltar</a>
+    </header>
+    <main>
+    
+        <h2>Hora de interatividade </h2>
+        <section id="verificador">
+            <img src="" alt="">
+            <h2>Verificador de idade e genero</h2>
+            <p>Preencha os dados corretamente</p>
+            <div id="dados_exercicio">
+                <div class="dados_genero">
+                    <div>
+                        <label for="digito">Ano de nascimento:</label>
+                        <input type="number" name="idade" id="idade_input">
+                    </div>
+                 <img src="" alt="">
+                    <div>
+                        <input type="radio" name="genero" id="masculino">
+                        <label for="masc">masculino</label>  <br>
+                        <input type="radio" name="genero" id="feminino">
+                        <label for="fem">feminino</label>
+                    </div>
+                    <div>
+                        <input type="button" class="butoes_valor" value="verificar" onclick="verificar_idade()">
+                        <div id="res">
+                    </div>
+                
+            </div>
+        </section>
+        <div class="bottons_area">
+            <!--voltar-->
+            <a href="tema.html"> Voltar</a>
+            <!--proxímo-->
+            <a href="contador.html">Proxímo</a>
+        </div>
+    </main>
+</body>
+<script src="script/verificador.js"></script>
+</html>

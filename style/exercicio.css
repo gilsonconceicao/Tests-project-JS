@@ -1,0 +1,155 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+:root {
+    --cor_principal: #7262d8;
+    --cor_secumndaria: #35F29A; 
+}
+
+* {
+    font-family: 'Roboto', sans-serif;;
+    margin: 0;
+    padding: 0;
+}
+
+/* ------- header  -------- */
+
+header {
+    background-color: #242424;
+    box-shadow: 0px 0px 0px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+header h1 {
+    color: white;
+    padding-left: 30px;
+    letter-spacing: 2px;
+}
+
+#botao_voltar_home {
+    background-color: #f5f7f6;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+    padding:  5px 10px;
+    transition: .8s;
+}
+
+#botao_voltar_home:hover {
+    transform: scale(0.9);
+}
+
+
+/* ------- exercicios  -------- */
+body {
+    background-image: linear-gradient(to left, var(--cor_principal), var(--cor_secumndaria));
+}
+
+main {
+    margin: 0 20px;
+}
+
+main > h2 {
+    color: #ffffff;
+    background-color: #282a2c;
+    max-width: 800px;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 2.3em;
+    margin: 20px auto;
+}
+
+
+section#exercicios {
+    margin: 3% 0 ;
+}
+
+.area_exercicios {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    padding: 5% 20px;
+    max-width: 800px;
+    margin: 5% auto 2% auto;
+}
+
+#sobre_exercicios {
+    max-width: 600px;
+    margin: auto;
+}
+
+#sobre_exercicios h2 {
+    font-size: 2em; 
+    margin-bottom: 10px;
+}
+
+#sobre_exercicios p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* botoes valor - exercício */ 
+
+.butoes_valor {
+    background-color: #4e29a5;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.164);
+    border: none;
+    padding: 10px;
+}
+
+
+/* button */ 
+
+div.buttons_exericio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fazer_exerc {
+    background-color: #4e29a5;
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 7px;
+    width: 160px;
+    font-size: 20px;
+    padding: 4px 10px;
+    margin: 5px 10px;
+    transition: .9s;
+}
+
+.fazer_exerc:hover {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 600px) {
+    main > h2 {
+        color: #ffffff;
+        background-color: #282a2c;
+        max-width: 800px;
+        border-radius: 40px;
+        text-align: center;
+        font-size: 1.7em;
+        padding: 5px 10px;
+        margin: 20px auto;
+    }
+
+    header h1 {
+        font-size: 1.8em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header h1 {
+        font-size: 1em;
+    }
+} 
