@@ -105,6 +105,7 @@ section#destaque p {
 .botao_fremework a {
     background-color: var(--cor_principal);
     color: white;
+    border-radius: 20px;
     display: block;
     text-align: center;
     text-decoration: none;
