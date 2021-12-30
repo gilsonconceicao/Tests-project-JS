@@ -132,11 +132,17 @@ main {
         top: 110px;
         left: 0;  
     }
+    #list_menu ul{
+        width: 100%;
+        top: 155px;
+    }
+    
 }
 
 @media screen and (max-width: 390px) {
     #list_menu ul{
         width: 100%;
+        top: 155px;
     }
 
     #list_menu a {
@@ -158,5 +164,6 @@ main {
         display: block;
         margin: auto;
     }
+
     
 }
