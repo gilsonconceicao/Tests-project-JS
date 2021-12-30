@@ -1,0 +1,159 @@
+@charset "UTF-8"; 
+
+
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: #242424;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;    
+}
+
+header h1 {
+
+    padding-left: 70px;
+    text-shadow: 2px 2px 2px #ffffff77;
+    letter-spacing: 4px;
+}
+
+body {
+    background-image: linear-gradient(to left, #e61919, #450366);
+}
+
+main {
+    margin: 2% 0;
+}
+
+/* ------ list_menu ------- */
+
+#btn_menu {
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 10px;
+    transition: all .9s;
+}
+
+#btn_menu:hover {
+    transform: scale(0.9);
+}
+
+#list_menu {
+    display: none;
+}
+
+#list_menu ul{
+    background-color: #242424;
+    list-style-type: none;
+    position: absolute;
+    border-radius: 10px;
+    border: solid 1px white;
+    top: 73px;
+    max-width: 400px;
+    transition: all .8s;
+}
+
+#list_menu li{
+    text-align: center;
+    line-height: 5em;
+}
+
+#list_menu a {
+    color: #f6f6f6;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 140px;
+    transition: all .8s;
+}
+
+#list_menu a:hover {
+    transform: translateX(1em);
+}
+
+.img_destaque img {
+    display: block;
+    margin: auto;
+}
+
+/*------- conteiner div -----*/ 
+
+#conteiner_div {
+    max-width: 600px;
+    display: block;
+    margin: auto;
+}
+
+#conteiner_div .boxs {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 550px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.flex_btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botao_mais {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+#paragrafo_01, #paragrafo_02, #paragrafo_03 {
+    display: none;
+    margin-top: 13px;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+@media screen and (max-width: 390px) {
+    #list_menu ul{
+        width: 100%;
+    }
+
+    #list_menu a {
+        padding: 10px;
+    }
+} 
+
+@media screen and (max-width: 500px) {
+    header h1 {
+        font-size: 1.5em;
+        padding: 10px;
+        text-shadow: 2px 2px 2px #ffffff77;
+        letter-spacing: 4px;
+    }
+
+    .img_destaque img {
+        width: 50%;
+        padding: 20px 0 ;
+        display: block;
+        margin: auto;
+    }
+    
+}
+
+
+@media screen and (max-width: 450px) {
+    .boxs h2 {
+        font-size: 1.2em;
+    }
+}
