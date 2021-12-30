@@ -133,6 +133,7 @@ main {
         left: 0;  
     }
     #list_menu ul{
+        background-color: #242424;
         width: 100%;
         top: 155px;
     }
