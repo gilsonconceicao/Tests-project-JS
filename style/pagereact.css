@@ -95,6 +95,7 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10px 0 60px 0 ;
 }
 
 .contineiner_react .boxs {
