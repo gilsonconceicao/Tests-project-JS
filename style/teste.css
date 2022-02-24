@@ -122,6 +122,11 @@ header h1 {
     padding: 3px;
 }
 
+
+#dadosUserLogin:focus {
+    border-bottom: 2px solid dodgerblue;
+}
+
 /* seção de destaque - emphasis */
 
 section.emphasis {

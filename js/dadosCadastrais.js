@@ -35,7 +35,9 @@ enviarDadosUsers.addEventListener('click', function () {
             <strong>Email:</strong> ${dados.emailUser}</br>
             <strong>contato:</strong> ${dados.contatoUser} </br>
             <strong>gênero:</strong> ${dados.generoUser}
-        `
+        `; 
+
+        window.alert('Dados cadastrados com sucesso. Veja-os no ícone do menu.')
 
         // ocultar msg header 
         const preenchaDados = document.getElementById('preenchaDados').style.display = 'none'
