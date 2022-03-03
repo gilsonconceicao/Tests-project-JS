@@ -149,7 +149,7 @@ header {
     max-width: 1100px;
     margin: 12vh auto;   
     padding:  15px ;
-    display: block;
+    display: none;
 }
 
 .aboutText {
@@ -312,10 +312,14 @@ form input:focus {
 
 /* icones do footer  */
 
+footer {
+    background-color: #d4d1d1;
+}
+
 .iconsFooter {
     display: flex;
     justify-content: center;
-    margin: 30px 0;
+    padding: 30px 0;
 }
 
 .iconsFooter img {

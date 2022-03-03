@@ -17,16 +17,11 @@
 
 #linkSetaBotton {
     display: none;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
-#linkSetaBotton a{
+#linkSetaBotton a {
     background-color: #f0f8ff1a;
     color: white;
-    display: block;
     border-radius: 25%;
     text-decoration: none;
     padding: 10px;
