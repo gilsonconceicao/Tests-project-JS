@@ -16,6 +16,7 @@ btnSubmitDice.addEventListener('click', function(e) {
     console.log(nome); 
     console.log(email);
 
+
     // select: options
 
     let select = document.querySelector('#options'); 
@@ -34,6 +35,8 @@ btnSubmitDice.addEventListener('click', function(e) {
         Linguagem: ${languages.toUpperCase()} `
 
     }
+
+    const btnIconMenu = document.getElementById('diceUser').style.display = 'block'
 }); 
 
 // mostrar ou não conteiner dados
