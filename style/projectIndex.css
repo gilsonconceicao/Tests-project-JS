@@ -138,11 +138,13 @@ header {
 .linkVerMais {
     background-color: #00ffbf;
     cursor: pointer;
+    display: block;
     border: none;
+    max-width: 300px;
     border-radius: 4px;
     font-size: 15px;
     padding: 5px 10px;
-    margin: 20px 0;
+    margin: 20px auto;
     transition: all .7s;
 }
 

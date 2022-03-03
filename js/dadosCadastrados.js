@@ -33,8 +33,6 @@ btnSubmitDice.addEventListener('click', function(e) {
         Email: ${email} </br>
         Linguagem: ${languages.toUpperCase()} `
 
-
-        let btnUserMenu = document.getElementById('diceUser').style.display = 'block'   
     }
 }); 
 

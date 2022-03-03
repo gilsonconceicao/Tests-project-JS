@@ -5,8 +5,8 @@ const btnShowConteiner = document.getElementsByClassName('linkVerMais')[0];
 btnShowConteiner.addEventListener('click', function() {
     let linguagensConteiner = document.getElementById('linguagensConteiner');
 
-    var linkSeta = document.getElementById('linkSetaBotton').style.display = 'block'
-    
+    window.alert('Opa! Agora é só continuar a vendo pagina. Veja mais abaixo.')
+
     if (linguagensConteiner.style.display == 'block') {
         linguagensConteiner.style.display = 'none';
     } else {
