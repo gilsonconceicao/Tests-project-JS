@@ -190,7 +190,8 @@ header {
 
     .nav_menu ul {
         background-color: #161616;
-        position: absolute;
+        position:absolute;
+        color: white;
         top: 20vh;
         display: block;
         right: 0;
