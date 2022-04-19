@@ -202,14 +202,12 @@ header {
     }
 
     .nav_menu li {
-        padding: 30px;
-    }
-
-    .nav_menu a {
         color: white;
+        padding: 30px;
+        transition: all .5s;
     }
 
-    .nav_menu a:hover {
+    .nav_menu li:hover {
         color: #FF4321;
     }
 } 
